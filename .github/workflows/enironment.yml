@@ -19,4 +19,10 @@
     update-environment: # optional, default is true
     # When 'true', a version range passed to 'python-version' input will match prerelease versions if no GA versions are found. Only 'x.y' version range is supported for CPython.
     allow-prereleases: # optional
-          
+       name: base
+channels:
+  - defaults
+dependencies:
+  - pythonThe failure occurred because the required `environment.yml=3.10
+  - flake8
+  - pytest
